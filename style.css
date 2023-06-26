@@ -1,0 +1,107 @@
+@media (min-width:992px){
+body{
+  padding: 0;
+  margin: 0;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+ 
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.meet-download{
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.iphone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  
+}
+
+}
+@media(max-width: 991px)
+{
+  body{
+    padding: 0;
+    margin: 0;
+  }
+  .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    padding-top: 6rem;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .meet-download{
+    display: flex ;
+    order: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+  .iphone{
+    display: block!important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    
+  }
+  .special-class-1{
+    display: flex !important; 
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+  }
+}
